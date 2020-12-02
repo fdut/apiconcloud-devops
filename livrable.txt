@@ -1,0 +1,2 @@
+product=apicsandbox-product
+version=1.0.0
