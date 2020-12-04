@@ -1,10 +1,16 @@
 # API Connect on Cloud Devops pipeline
 
+The sample show how to use API Connect CLI for Continious Delivery in IBM Cloud pipeline.
+
+Scope : API Connect on Cloud (v5) and API Connect Toolkit 
+
+- APIC (v5) CLI : https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/rapim_cli_command_summary.html
+- Toolchain : https://cloud.ibm.com/devops/toolchains
 
 
-Create a new Toolchain with these Tools
+## Create a new Toolchain with these Tools
 
-- GitHub Enterprise Whitewater
+- GitHub repository
 - Delivery Pipeline
  
  ![alt](img/toolchain.png)
@@ -53,7 +59,7 @@ Builder Type (Build) : **npm**
 Build script
 
 ```
-scripts/publish_to_sandbox.sh
+scripts/publish_to_catalog.sh
 ```
 
 ![Publish](img/stage-publish.jpg)
@@ -74,3 +80,6 @@ scripts/publish_to_sandbox.sh
 ```
  
 ![Publish](img/environment-variable.jpg)
+
+---
+2020 - Fred Dutheil
