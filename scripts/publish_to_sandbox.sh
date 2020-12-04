@@ -2,9 +2,6 @@
 echo "Start: `date`"
 SECONDS=0
 
-pwd
-. $PWD/apic.properties
-
 # ---------
 # In PIPELINE, Add an environment variable named apikey with your IAM api key to access to youy IBM Clous services
 # ----------
@@ -13,6 +10,10 @@ pwd
 
 if [ ! "$apikey" ]; then
     apikey=`cat apiKey.txt`;
+fi
+
+if [ ! "$apicserver" ]; then
+    . $PWD/apic.properties;
 fi
 
 FILE=./livrable.txt
