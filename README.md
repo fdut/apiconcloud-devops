@@ -60,8 +60,10 @@ scripts/publish_to_sandbox.sh
 
 ### Environment properties
 
+```
 (secure property)
 - apikey : **.............................**
+```
 
 (optional to replace apic.properties values)
 ```
