@@ -1,0 +1,23 @@
+---
+product: "1.0.0"
+info:
+  name: "give-version-product"
+  title: "give-version-product"
+  version: "1.0.0"
+visibility:
+  view:
+    enabled: true
+    type: "public"
+    tags: []
+    orgs: []
+  subscribe:
+    enabled: true
+    type: "authenticated"
+    tags: []
+    orgs: []
+apis:
+  give-version:
+    $ref: "give-version_1.0.0.yaml"
+plans:
+  default:
+    title: "Default Plan"

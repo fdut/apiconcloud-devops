@@ -1,2 +1,2 @@
-product=apicsandbox-product
+product=give-version-product
 version=1.0.0
