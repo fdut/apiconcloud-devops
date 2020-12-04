@@ -5,6 +5,12 @@ SECONDS=0
 pwd
 . $PWD/apic.properties
 
+# ---------
+# In PIPELINE, Add an environment variable named apikey with your IAM api key to access to youy IBM Clous services
+# ----------
+# For local test ONLY create a file apiKey.txt with IAM api key inside 
+# ----------
+
 if [ ! "$apikey" ]; then
     apikey=`cat apiKey.txt`;
 fi
